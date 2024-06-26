@@ -111,7 +111,6 @@ public class Controller {
         switch (operator) {
             case null:
                 ResultBar.setText("Молодец, ты всё сломал!");
-
                 break;
             case "+":
                 result = Float.parseFloat(firstNum) + Float.parseFloat(secondNum);
